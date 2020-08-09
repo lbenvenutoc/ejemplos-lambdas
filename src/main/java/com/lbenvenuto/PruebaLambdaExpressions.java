@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PruebaExpresionesLambda {
+public class PruebaLambdaExpressions {
 
-	private static Logger logger = LoggerFactory.getLogger(PruebaExpresionesLambda.class);
+	private static Logger logger = LoggerFactory.getLogger(PruebaLambdaExpressions.class);
 
 	public static void main(String[] args) {
 

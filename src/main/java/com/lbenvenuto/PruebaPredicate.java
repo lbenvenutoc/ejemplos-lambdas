@@ -5,9 +5,9 @@ import java.util.function.Predicate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PruebaPredicado {
+public class PruebaPredicate {
 
-	private static Logger logger = LoggerFactory.getLogger(PruebaPredicado.class);
+	private static Logger logger = LoggerFactory.getLogger(PruebaPredicate.class);
 
 	public static void main(String[] args) {
 		int numeroPrueba = 5;

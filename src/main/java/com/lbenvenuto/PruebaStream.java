@@ -18,15 +18,10 @@ public class PruebaStream {
 		logger.info("Numero de elementos mayores que 5 "
 				+ listaNumerosEnteros.stream().filter(numero -> numero > 5).collect(Collectors.toList()).size());
 
-		List<Persona> listaPersonasFiltradas = listarPersonas().stream().filter(p -> p.getEdad() > 18)
+		List<Persona> listaPersonasFiltradas = Data.listarPersonas().stream().filter(p -> p.getEdad() > 18)
 				.collect(Collectors.toList());
 		logger.info("Numero de personas mayores de 18 " + listaPersonasFiltradas.size());
 
-	}
-
-	public static List<Persona> listarPersonas() {
-		return Arrays.asList(new Persona("43396240", "Benvenuto", "Calderon", "Luis Alexis", 34),
-				new Persona("32012568", "Ccasani", "Magallanes", "Jose", 15));
 	}
 
 }

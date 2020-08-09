@@ -5,9 +5,9 @@ import java.util.function.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PruebaConsumidor {
+public class PruebaConsumer {
 
-	private static Logger logger = LoggerFactory.getLogger(PruebaConsumidor.class);
+	private static Logger logger = LoggerFactory.getLogger(PruebaConsumer.class);
 
 	public static void main(String[] args) {
 		Consumer<Persona> saludoPersona = p -> logger.info("Hola " + p.getNombre());

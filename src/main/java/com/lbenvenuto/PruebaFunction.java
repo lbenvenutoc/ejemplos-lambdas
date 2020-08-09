@@ -5,9 +5,9 @@ import java.util.function.Function;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PruebaFuncion {
+public class PruebaFunction {
 
-	private static Logger logger = LoggerFactory.getLogger(PruebaFuncion.class);
+	private static Logger logger = LoggerFactory.getLogger(PruebaFunction.class);
 
 	public static void main(String[] args) {
 		int numeroPrueba = 12;
