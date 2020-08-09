@@ -6,17 +6,19 @@ public class Persona {
 	private String apellidoPaterno;
 	private String apellidoMaterno;
 	private String nombre;
+	private Integer edad;
 
 	public Persona() {
 
 	}
 
-	public Persona(String dni, String apellidoPaterno, String apellidoMaterno, String nombre) {
+	public Persona(String dni, String apellidoPaterno, String apellidoMaterno, String nombre, Integer edad) {
 		super();
 		this.dni = dni;
 		this.apellidoPaterno = apellidoPaterno;
 		this.apellidoMaterno = apellidoMaterno;
 		this.nombre = nombre;
+		this.edad = edad;
 	}
 
 	public String getDni() {
@@ -51,12 +53,18 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
+	public Integer getEdad() {
+		return edad;
+	}
+
+	public void setEdad(Integer edad) {
+		this.edad = edad;
+	}
+
 	@Override
 	public String toString() {
 		return "Persona [dni=" + dni + ", apellidoPaterno=" + apellidoPaterno + ", apellidoMaterno=" + apellidoMaterno
-				+ ", nombre=" + nombre + "]";
+				+ ", nombre=" + nombre + ", edad=" + edad + "]";
 	}
-	
-	
 
 }

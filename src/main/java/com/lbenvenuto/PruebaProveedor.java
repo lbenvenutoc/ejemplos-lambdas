@@ -10,7 +10,7 @@ public class PruebaProveedor {
 	private static Logger logger = LoggerFactory.getLogger(PruebaProveedor.class);
 
 	public static void main(String[] args) {
-		Supplier<Persona> proveedorPersona = () -> new Persona("43396240", "Benvenuto", "Calderon", "Luis Alexis");
+		Supplier<Persona> proveedorPersona = () -> new Persona("43396240", "Benvenuto", "Calderon", "Luis Alexis", 34);
 		logger.info("La persona obtenida es " + proveedorPersona.get().toString());
 	}
 

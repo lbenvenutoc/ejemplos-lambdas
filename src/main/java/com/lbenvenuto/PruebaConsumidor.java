@@ -11,7 +11,7 @@ public class PruebaConsumidor {
 
 	public static void main(String[] args) {
 		Consumer<Persona> saludoPersona = p -> logger.info("Hola " + p.getNombre());
-		saludoPersona.accept(new Persona("43396240", "Benvenuto", "Calderon", "Luis Alexis"));
+		saludoPersona.accept(new Persona("43396240", "Benvenuto", "Calderon", "Luis Alexis", 34));
 	}
 
 }
