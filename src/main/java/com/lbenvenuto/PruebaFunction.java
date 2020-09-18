@@ -13,6 +13,7 @@ public class PruebaFunction {
 		int numeroPrueba = 12;
 		Function<Integer, Integer> numeroAlCuadrado = a -> a * a;
 		logger.info("El numero " + numeroPrueba + " al cuadrado es " + numeroAlCuadrado.apply(numeroPrueba));
+
 	}
 
 }

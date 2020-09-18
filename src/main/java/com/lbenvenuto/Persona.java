@@ -2,6 +2,7 @@ package com.lbenvenuto;
 
 public class Persona {
 
+	private Double id;
 	private String dni;
 	private String apellidoPaterno;
 	private String apellidoMaterno;
@@ -12,13 +13,22 @@ public class Persona {
 
 	}
 
-	public Persona(String dni, String apellidoPaterno, String apellidoMaterno, String nombre, Integer edad) {
+	public Persona(double id, String dni, String apellidoPaterno, String apellidoMaterno, String nombre, Integer edad) {
 		super();
+		this.id = id;
 		this.dni = dni;
 		this.apellidoPaterno = apellidoPaterno;
 		this.apellidoMaterno = apellidoMaterno;
 		this.nombre = nombre;
 		this.edad = edad;
+	}
+
+	public Double getId() {
+		return id;
+	}
+
+	public void setId(Double id) {
+		this.id = id;
 	}
 
 	public String getDni() {
